@@ -8,6 +8,7 @@ chai("lemon tea") # lemon tea (a string) would be printed.
 
 chai_one = "ginger tea"
 chai_two = "masala chai"
+chai_three = "kada tea"
 # important: I entered the above two variables after I imported python in my terminal. But the python shell
 # doesn't get reloaded automatically so even after pressing ctrl+s,
 # it didn't get saved/reloaded. So for the purpose of new entries being reloaded,

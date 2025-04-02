@@ -10,6 +10,8 @@ print(message)
 
 Output:
 My name is Alice and I am 25 years old.
+
+
 2. Positional Arguments
 You can specify the order of values using numbers inside the placeholders:
 message = "I love {1} and {0}.".format("Python", "JavaScript")
@@ -17,6 +19,8 @@ print(message)
 
 Output:
 I love JavaScript and Python.
+
+
 3. Keyword Arguments
 You can use keywords instead of positional arguments:
 message = "My favorite color is {color}.".format(color="blue")
@@ -24,12 +28,16 @@ print(message)
 
 Output:
 My favorite color is blue.
+
+
 4. Mixing Positional and Keyword Arguments
 message = "I like {0} and {language}.".format("coding", language="Python")
 print(message)
 
 Output:
 I like coding and Python.
+
+
 5. Formatting Numbers
 Decimals:
 pi = 3.14159
@@ -48,12 +56,16 @@ Output:
 Hello      is left-aligned
      Hello is right-aligned
   Hello    is centered
+
+
 6. Using Dictionaries with .format()
 data = {"name": "Bob", "age": 30}
 message = "Name: {name}, Age: {age}".format(**data)
 print(message)
 Output:
 Name: Bob, Age: 30
+
+
 7. Using Lists or Tuples
 values = ["Alice", 28]
 message = "Name: {}, Age: {}".format(*values)

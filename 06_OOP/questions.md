@@ -1,13 +1,11 @@
 # learn about Object Oriented Programming by answering these questions
 
-
 <details>
 <summary>
 1. Basic Class and Object
 </summary>
 Problem: Create a Car class with attributes like brand and model. Then create an instance of this class.
 </details>
-
 
 <details>
 <summary>
@@ -16,15 +14,12 @@ Problem: Create a Car class with attributes like brand and model. Then create an
 Problem: Add a method to the Car class that displays the full name of the car (brand and model).
 </details>
 
-
 <details>
 <summary>
 3. Inheritance
 </summary>
 Problem: Create an ElectricCar class that inherits from the Car class and has an additional attribute battery_size.
 </details>
-
-
 
 <details>
 <summary>
@@ -40,17 +35,12 @@ Problem: Modify the Car class to encapsulate the brand attribute, making it priv
 Problem: Demonstrate polymorphism by defining a method fuel_type in both Car and ElectricCar classes, but with different behaviors.
 </details>
 
-
-
 <details>
 <summary>
 6. Class Variables
 </summary>
 Problem: Add a class variable to Car that keeps track of the number of cars created.
 </details>
-
-
-
 
 <details>
 <summary>
@@ -59,16 +49,12 @@ Problem: Add a class variable to Car that keeps track of the number of cars crea
 Problem: Add a static method to the Car class that returns a general description of a car.
 </details>
 
-
-
 <details>
 <summary>
-8. Property Decorators
+8. Property Decorators (Example provided in propertyDec.py)
 </summary>
 Problem: Use a property decorator in the Car class to make the model attribute read-only.
 </details>
-
-
 
 <details>
 <summary>
@@ -77,13 +63,9 @@ Problem: Use a property decorator in the Car class to make the model attribute r
 Problem: Demonstrate the use of isinstance() to check if my_tesla is an instance of Car and ElectricCar.
 </details>
 
-
-
 <details>
 <summary>
 10. Multiple Inheritance
 </summary>
-Problem: Create two classes Battery and Engine, and let the ElectricCar class inherit from both, demonstrating multiple inheritance.
+Problem: Create two classes Battery and Engine, and let the ElectricCarTwo class inherit from both, demonstrating multiple inheritance.
 </details>
-
-

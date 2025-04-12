@@ -43,3 +43,4 @@ def chaiCoder(num):
 
 f = chaiCoder(2)
 print(f(3))
+print(f)

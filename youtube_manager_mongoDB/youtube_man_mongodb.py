@@ -22,8 +22,7 @@ def update_video(video_id, new_name, new_time):
     video_collection.update_one({'_id': ObjectId(video_id)}, {"$set": {"name": new_name, "time": new_time}})
 
 def delete_video(video_id):
-    video_collection.delete_one({"_id": video_id})
-    # TODO: debug this video_id problem
+    video_collection.delete_one({"_id": ObjectId(video_id)})
 
 
 def main():
@@ -48,8 +47,8 @@ def main():
             time = input("Enter the updated video time: ")
             update_video(video_id, name, time)
         elif choice == '4':
-            video_id = input("Enter the video id to update: ")
-            delete_video(video_id, name, time)
+            video_id = input("Enter the video id to delete: ")
+            delete_video(video_id)
         elif choice == '5':
             break
         else:

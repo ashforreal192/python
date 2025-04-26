@@ -13,7 +13,6 @@ def fetch_user_api():
     
     else:
         raise Exception("Failed to fetch user data")
-    
 
 def main():
     try:

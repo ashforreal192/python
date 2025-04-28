@@ -1,0 +1,23 @@
+Full Commands for PowerShell:
+
+# 1. Navigate to your project directory
+cd "C:\Users\shato\OneDrive\Desktop\Github Repositories\Python1\numpy"
+
+# 2. Create a virtual environment
+python -m venv venv
+
+# 3. Activate the virtual environment
+.\venv\Scripts\Activate
+
+# 4. (Optional but recommended) Upgrade pip inside venv
+python -m pip install --upgrade pip
+
+
+
+
+If requirements.txt doesn't exist yet, you can create it using:
+pip freeze > requirements.txt
+
+
+Then next time you or someone else can recreate the exact environment using:
+pip install -r requirements.txt

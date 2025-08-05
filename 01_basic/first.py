@@ -14,3 +14,21 @@ chai_three = "kada tea"
 # it didn't get saved/reloaded. So for the purpose of new entries being reloaded,
 # we use a command called "from importlib import reload". And then write "reload(filename)". In
 # this case, reload(first). After that we can access the new variables using command....  first.chai_one
+
+
+
+
+# If you run this in the shell:
+
+# python
+# >>> import first
+# >>> first.chai_one
+# 'ginger tea'
+
+# If you later modify first.py (e.g., change chai_one to "mint tea"), you must reload:
+
+# python
+# >>> from importlib import reload
+# >>> reload(first)
+# >>> first.chai_one
+# 'mint tea'

@@ -13,7 +13,7 @@ if fruit == "Banana":
     elif color == "Brown":
         State = "Overripe"
     else:
-        State = "Fruit Invalid"
+        State
 
 
 print("Fruit:",fruit,"\nColor:",color,"\nState:",State)

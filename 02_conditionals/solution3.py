@@ -1,6 +1,6 @@
-marks = 110
+marks = 0
 
-if marks >= 101:
+if marks >= 101 or marks <0:
     print("Please verify your marks again")
     exit()
 

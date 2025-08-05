@@ -43,6 +43,11 @@ Decimals:
 pi = 3.14159
 print("Pi is approximately {:.2f}".format(pi))
 
+:.2f inside {} is a format specifier:
+: → Starts the format specification.
+.2 → Rounds the number to 2 decimal places.
+f → Treats the number as a floating-point value.
+
 Output:
 Pi is approximately 3.14
 
